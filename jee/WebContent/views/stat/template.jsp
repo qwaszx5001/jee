@@ -23,18 +23,6 @@
 			<td class="tdClass">입력값</td>
 		</tr>
 		<tr class="trClass">
-			<td class="tdClassField">통계생성여부</td>
-			<td class="tdClassField">
-				<input type="text" style="width:350px;">
-			</td>
-		</tr>
-		<tr class="trClass">
-			<td class="tdClassField">통계No</td>
-			<td class="tdClassField">
-				<input type="text" style="width:350px;">
-			</td>
-		</tr>
-		<tr class="trClass">
 			<td class="tdClassField">방문자수</td>
 			<td class="tdClassField">
 				<input type="text" style="width:350px;">

@@ -1,5 +1,5 @@
 @CHARSET "UTF-8";
-@Import	url("../common/common.css");
+@Import	url("common.css");
 
 img{border:none;}
 
@@ -9,12 +9,12 @@ img{border:none;}
 	margin: 0;
 	margin-right: auto; /* 환경에 맞게 자동 설정 */
 	margin-left: auto;
-	background-image: url("../../images/developers.png");
+	/* background-image: url("../../images/developers.png"); */
 	background-repeat: repeat-y;
 	/*
 	만약 배경 이미지가 작으면 이미지 반복으로 채우겠다.
 	*/ 
-	min-height: 750px;
+	min-height: 700px;
 	/*
 	모니터에 따라 신축성 있게 헤더가 축소되지만
 	최소한 750px은 유지하고
@@ -97,11 +97,11 @@ footer{
 footer hr{
 	width: 100%;
 	margin: 0 0 0 15px;
+	z-index:3;
 }
 
 #companyInfo{
 	text-align:center;
-	border:1px solid black;
 	margin:10px auto;
 	width:700px;
 	overflow-x:scorll;
@@ -110,6 +110,10 @@ footer hr{
 #companyInfo textarea{
 	text-align:left;
 	
+}
+
+footer{
+	background-color:#fff;
 }
 
 /* 

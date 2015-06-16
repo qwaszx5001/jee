@@ -5,4 +5,5 @@ public interface ReservationService {
 	String checkOut(int floor, int row, String id);
 	String[][] showStatus();
 	void process();
+	String[][] checkIn();
 }

@@ -144,4 +144,10 @@ public class ReservationServiceImpl implements ReservationService {
 
 	}
 
+	
+	@Override
+	public String[][] checkIn() {
+		return null;
+	}
+
 }

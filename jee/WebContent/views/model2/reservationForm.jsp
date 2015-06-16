@@ -30,40 +30,13 @@
 		
 	
 	
-		<hr style="width:400px; height:20px; border-color:black;" />
-		
-		<div style="text-align:center;">
-		
-		<%
-		
-		int floor = 3;
-		int room = 5;
-		
-		String[][] name = new String[3][5];
-		
-		for (int i = 0; i < name.length; i++) {
-			for (int j = 0; j < name[i].length; j++) {
-				if (name[i][j] == null) {
-					/* System.out.print("" + (i + 1) + "0" + (j + 1) + "호"
-							+ " □\t" + "\t"); */
-					%>
-					ㅁ <%=i+1 %> - <%=j+1 %> 
-					<%
-				} else {
-					/* System.out.print("" + (i + 1) + "0" + (j + 1) + "호"
-							+ " ■\t" + name[i][j] + "\t"); */
-					%>
-					■ <%=i+1 %> - <%=j+1 %> 
-					<%		
-				}
-			}
-			
-			%>
-			<br />
-			<%
-			//System.out.println();
-		}
-		%>
+	<hr style="width:400px; height:20px; border-color:black;" />
+	<div style="text-align:center;">
+	
+		// TODO : 코딩
+		?님 (?)석 예약을 완료하였습니다.
+		ㅁ A - 1
+		■ B - 1
 	</div>
 	
 	<div>

@@ -79,6 +79,7 @@
 				<tr>
 					<td colspan="2">
 						<input type="submit" value="전송" />
+						<img src="../images/btnLogin.gif" style="cursor:pointer" alt="" onclick="return login();" />
 					</td>
 				</tr>
 			</table>
